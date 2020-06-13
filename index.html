@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Ristorante Con Fusion</title>
   </head>
 
   <body>
-    <header>
-      <div>
-        <div>
-          <div>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ny"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mr-auto" href="#">Ristorante sdvsd vssfef</a>
+        <div class="collapse navbar-collapse" id="ny">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="jumbotron">
+      <div class="container">
+        <div class="row row-header">
+          <div class="col-12 col-sm-6">
             <h1>Ristorante con Fusion</h1>
             <p>
               We take inspiration from the World's best cuisines, and create a
@@ -20,17 +53,17 @@
               your culinary senses!
             </p>
           </div>
-          <div></div>
+          <div class="col-12 col-sm"></div>
         </div>
       </div>
     </header>
 
-    <div>
-      <div>
-        <div>
+    <div class="container">
+      <div class="row row-content align-items-center">
+        <div class="col-12 order-sm-last col-sm-4 col-md-3">
           <h3 class="text-danger">Our Lipsmacking Culinary Creations</h3>
         </div>
-        <div>
+        <div class="col order-sm-first col-sm col-md">
           <h2>Uthappizza</h2>
           <p>
             A unique combination of Indian Uthappam (pancake) and Italian pizza,
@@ -40,11 +73,11 @@
         </div>
       </div>
 
-      <div>
-        <div>
+      <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 col-md-3">
           <h3>This Month's Promotions</h3>
         </div>
-        <div>
+        <div class="col col-sm col-md">
           <h2>Weekend Grand Buffet</h2>
           <p>
             Featuring mouthwatering combinations with a choice of five different
@@ -55,11 +88,11 @@
         </div>
       </div>
 
-      <div>
-        <div>
+      <div class="row row-content align-items-center">
+        <div class="col-12 col-sm-4 col-md-3">
           <h3>Meet our Culinary Specialists</h3>
         </div>
-        <div>
+        <div class="col col-sm col-md">
           <h2>Alberto Somayya</h2>
           <h4>Executive Chef</h4>
           <p>
@@ -73,18 +106,18 @@
     </div>
 
     <footer>
-      <div>
-        <div>
-          <div>
+      <div class="container-fluid footer">
+        <div class="row">
+          <div class="col-4 offset-1 col-sm-2">
             <h5>Links</h5>
-            <ul>
+            <ul class="list-unstyled">
               <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="aboutus.html">About</a></li>
               <li><a href="#">Menu</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <div>
+          <div class="col-7 col-sm-5">
             <h5>Our Address</h5>
             <address>
               121, Clear Water Bay Road<br />
@@ -95,8 +128,8 @@
               Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
             </address>
           </div>
-          <div>
-            <div>
+          <div class="col-12 col-sm-4 align-self-center">
+            <div class="text-center">
               <a href="http://google.com/+">Google+</a>
               <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
               <a href="http://www.linkedin.com/in/">LinkedIn</a>
@@ -106,15 +139,15 @@
             </div>
           </div>
         </div>
-        <div>
-          <div>
+        <div class="row justify-content-center">
+          <div class="col-auto">
             <p>© Copyright 2018 Ristorante Con Fusion</p>
           </div>
         </div>
       </div>
     </footer>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js" />
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" />
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
