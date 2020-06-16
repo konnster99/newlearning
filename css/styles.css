@@ -51,3 +51,20 @@ body {
   left: 0;
   min-height: 300px;
 }
+.boxed label {
+  display: inline-block;
+
+  transition: all 0.3s;
+}
+
+.boxed input[type="radio"] {
+  display: none;
+}
+
+.boxed input[id="nons"]:checked + label {
+  border: solid 2px green;
+}
+
+.boxed input[id="Smoking"]:checked + label {
+  border: solid 2px red;
+}
