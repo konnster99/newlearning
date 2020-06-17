@@ -68,3 +68,9 @@ body {
 .boxed input[id="Smoking"]:checked + label {
   border: solid 2px red;
 }
+
+#carouselButton {
+  left: 47%;
+  position: absolute;
+  bottom: 0px;
+}
